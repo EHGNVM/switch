@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+
+    <groupId>com.github.ehgnvm</groupId>
+    <artifactId>switch</artifactId>
+    <version>1.0</version>
+    <name>switch</name>
+    <packaging>pom</packaging>
+    <description>switch middleware service</description>
+
+
+    <properties>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <modules>
+        <module>switch-core</module>
+        <module>switch-adpater</module>
+        <module>switch-admin</module>
+        <module>switch-client</module>
+        <module>switch-adpater-zookeeper</module>
+        <module>switch-client-adapter</module>
+        <module>switch-client-adapter-zookeeper</module>
+        <module>switch-adpater-apollo</module>
+        <module>switch-adpater-nacos</module>
+        <module>switch-client-adapter-apollo</module>
+        <module>switch-client-adapter-nacos</module>
+    </modules>
+
+    <dependencyManagement>
+        <dependencies>
+        </dependencies>
+    </dependencyManagement>
+
+</project>
